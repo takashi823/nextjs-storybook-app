@@ -5,6 +5,8 @@ const config: Config = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    // storybook追加時に作成されたフォルダにtailwind cssを適用する
+    "./src/stories/*.{js,ts,jsx,tsx,mdx}"
   ],
   theme: {
     extend: {
